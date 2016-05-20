@@ -38,6 +38,9 @@ end
 if msg.text == "Slm" then
   return "سلام👻"
 end
+if msg.text == "سارا" then
+  return "سارا خانوم😒"
+end
 if msg.text == "بای" then
   return "اودافظ👻"
 end
@@ -62,6 +65,7 @@ return {
     "^[Dd]ilan$",
     "^[Bb]ye$",
     "^[Ss]alam$",
+    "^سارا$",
     "^@dilan$",
     "^خدافظ$",
     "^بای$",
