@@ -47,6 +47,8 @@ end
 if msg.text == "bye" then
   return "اودافظ👻"
 end
+if msg.text == "سارا" then
+  return "خانوم سارا 😒"
 if msg.text == "@dilan" then
   return "بکنته👻"
 end
