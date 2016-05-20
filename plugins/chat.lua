@@ -44,13 +44,9 @@ end
 if msg.text == "خدافظ" then
   return "بابای👻"
 end
-if msg.text == "sara" then
-  return "سارا خانم 😒"
 if msg.text == "bye" then
   return "اودافظ👻"
 end
-if msg.text == "سارا" then
-  return "خانوم سارا 😒"
 if msg.text == "@dilan" then
   return "بکنته👻"
 end
