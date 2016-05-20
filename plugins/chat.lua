@@ -53,7 +53,7 @@ end
 end
 
 return {
-  description = "Chat With Robot Server", 
+  description = "Chat With Robot", 
   usage = "chat with robot",
   patterns = {
     "^[Hh]i$",
