@@ -20,6 +20,8 @@ end
 if msg.text == "dilan" then
   return "jun👻"
 end
+if msg.text == "سارا" then
+  return "سارا خانم 😒"
 if msg.text == "Dilan" then
   return "joon👻"
 end
