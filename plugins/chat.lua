@@ -2,6 +2,9 @@ local function run(msg)
 if msg.text == "hi" then
   return "سلام👻"
 end
+if msg.text == "خب" then
+  return "خب ☹️"
+end
 if msg.text == "Hi" then
   return "سلام👻"
 end
