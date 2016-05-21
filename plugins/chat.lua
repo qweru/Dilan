@@ -1,3 +1,4 @@
+#Ðɪℓαη ♡ sαяα:
 local function run(msg)
 if msg.text == "hi" then
   return "سلام👻"
@@ -50,6 +51,9 @@ end
 if msg.text == "bye" then
   return "اودافظ👻"
 end
+if msg.text == "خب" then
+  return "خب ☹️"
+end
 if msg.text == "@dilan" then
   return "بکنته👻"
 end
@@ -68,6 +72,7 @@ return {
     "^سارا$",
     "^@dilan$",
     "^خدافظ$",
+    "^خب$",
     "^بای$",
     "^[Ss]lm$",
     "^دیلی$",
