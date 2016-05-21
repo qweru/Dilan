@@ -49,8 +49,6 @@ if msg.text == "خدافظ" then
 end
 if msg.text == "bye" then
   return "اودافظ👻"
-endif msg.text == "خب" then
-  return "خب ☹️"
 end
 if msg.text == "@dilan" then
   return "بکنته👻"
