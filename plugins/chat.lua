@@ -53,6 +53,8 @@ if msg.text == "bye" then
 end
 if msg.text == "خب" then
   return "خب ☹️"
+if msg.text == "ببیی" then
+  return "کیررر 😒"
 end
 if msg.text == "@dilan" then
   return "بکنته👻"
@@ -73,6 +75,7 @@ return {
     "^@dilan$",
     "^خدافظ$",
     "^خب$",
+    "^ببیی$",
     "^بای$",
     "^[Ss]lm$",
     "^دیلی$",
