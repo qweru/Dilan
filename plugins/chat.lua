@@ -54,6 +54,9 @@ end
 if msg.text == "خب" then
   return "خب ☹️"
 end
+if msg.text == "ببیی" then
+  return "کیرررر"
+end
 if msg.text == "@dilan" then
   return "بکنته👻"
 end
@@ -76,6 +79,7 @@ return {
     "^بای$",
     "^[Ss]lm$",
     "^دیلی$",
+    "^ببیی$",
     "^دیلان$",
     }, 
   run = run,
