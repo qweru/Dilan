@@ -1,7 +1,8 @@
 do
 
 function run(msg, matches)
-    return "Self-Bot \n by me:) <3 \n @dilan"
+    return "Self-Bot \n by me:) ❤️ \n @Dilan.
+Thanks To Makan"
 end 
 return {
   patterns = {
