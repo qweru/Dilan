@@ -31,7 +31,7 @@ if msg.text == "دیلان" then
   return "جانه دیلان👻"
 end
 if msg.text == "سلام" then
-  return "علیـک👻"
+  return "علیک👻"
 end
 if msg.text == "slm" then
   return "سلام👻"
@@ -47,6 +47,9 @@ if msg.text == "بای" then
 end
 if msg.text == "خدافظ" then
   return "بابای👻"
+end
+if msg.text == "😒" then
+  return "😟"
 end
 if msg.text == "bye" then
   return "اودافظ👻"
@@ -79,6 +82,7 @@ return {
     "^بای$",
     "^[Ss]lm$",
     "^دیلی$",
+    "^😒$",
     "^ببیی$",
     "^دیلان$",
     }, 
