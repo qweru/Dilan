@@ -128,7 +128,7 @@ local function run(msg, matches)
         else
             return 'Error !'
         end
-            elseif matches[1] == 'rmv' then
+            elseif matches[1] == 'ban' then
         if permissions(msg.from.id, msg.to.id, "kick") then
             local chat_id = msg.to.id
             local chat_type = msg.to.type
@@ -189,8 +189,8 @@ return {
         '^#(newlink)$',
         '^#(tosuper)$',
         '^#(setdes) (.*)$',
-        "^#(rmv)$",
-        "^#(rmv) (.*)$",
+        "^#(ban)$",
+        "^#(ban) (.*)$",
         "^#(add)$",
         "^#(add) (.*)$",
     },
