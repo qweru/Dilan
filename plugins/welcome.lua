@@ -88,7 +88,7 @@ local function run(msg, matches)
       description_rules(msg, nama)
    elseif matches[1] == "chat_del_user" then
        local bye_name = msg.action.user.first_name
-       return 'Bye '..bye_name
+       return 'Sick out '..sick out_name
    end
 end
 
