@@ -43,16 +43,16 @@ if msg.text == "سارا" then
   return "سارا خانوم😒"
 end
 if msg.text == "بای" then
-  return "اودافظ👻"
+  return "Sick out"
 end
 if msg.text == "خدافظ" then
-  return "بابای👻"
+  return "Sick�"
 end
 if msg.text == "😒" then
   return "😟"
 end
 if msg.text == "bye" then
-  return "اودافظ👻"
+  return "خدافظ"
 end
 if msg.text == "خب" then
   return "خب ☹️"
@@ -60,7 +60,7 @@ end
 if msg.text == "ببیی" then
   return "کیرررر"
 end
-if msg.text == "@dilan" then
+if msg.text == "@Dilan" then
   return "بکنته👻"
 end
 end
