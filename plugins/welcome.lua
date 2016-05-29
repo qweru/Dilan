@@ -87,8 +87,8 @@ local function run(msg, matches)
       chat_new_user_link(msg)
       description_rules(msg, nama)
    elseif matches[1] == "chat_del_user" then
-       local bye_name = msg.action.user.first_name
-       return 'Bye '..bye_name
+       local Sick_name = msg.action.user.first_name
+       return 'Sick '..Sick_name
    end
 end
 
