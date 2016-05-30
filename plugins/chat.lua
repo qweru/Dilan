@@ -31,7 +31,7 @@ if msg.text == "دیلان" then
   return "جانه دیلان👻"
 end
 if msg.text == "سلام" then
-  return "علیک👻"
+  return "سلام با مرام 🙂"
 end
 if msg.text == "slm" then
   return "سلام👻"
