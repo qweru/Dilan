@@ -26,13 +26,13 @@ local function enable_channel(receiver, to_id)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return 'Bot was on :D'
+		return 'ربات روشن شد.❤️'
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return 'Bot was on :D'
+	return 'ربات روشن شد.❤️'
 end
 
 local function disable_channel(receiver, to_id)
@@ -51,7 +51,7 @@ local function pre_process(msg)
 	
 	-- If sender is sudo then re-enable the channel
 	if is_sudo(msg) then
-	  if msg.text == "#bot on" then
+	  if msg.text == "#بات انلاین" then
 	    enable_channel(receiver, msg.to.id)
 	  end
 	end
