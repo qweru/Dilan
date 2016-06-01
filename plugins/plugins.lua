@@ -173,7 +173,7 @@ end
 
 return {
   patterns = {
-    "^#plugins$",
+    "^#لیست$",
     "^#plugins? (enable) ([%w_%.%-]+)$",
     "^#plugins? (disable) ([%w_%.%-]+)$",
     "^#plugins? (enable) ([%w_%.%-]+) (gp)",
