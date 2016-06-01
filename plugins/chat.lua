@@ -28,7 +28,7 @@ if msg.text == "دیلی" then
   return "بنال👻"
 end
 if msg.text == "دیلان" then
-  return "جانه دیلان👻"
+  return "بله جان"
 end
 if msg.text == "سلام" then
   return "سلام با مرام 🙂"
