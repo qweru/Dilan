@@ -26,13 +26,13 @@ local function enable_channel(receiver, to_id)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return 'سلف بات روشن شد .❤️️'
+		return 'Bot was on :D'
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return 'سلف بات روشن شد .❤️️'
+	return 'Bot was on :D'
 end
 
 local function disable_channel(receiver, to_id)
@@ -43,7 +43,7 @@ local function disable_channel(receiver, to_id)
 	_config.disabled_channels[receiver] = true
 
 	save_config()
-	return 'سلف بات خاموش شد .'
+	return 'Bot was off ;-/'
 end
 
 local function pre_process(msg)
@@ -51,7 +51,7 @@ local function pre_process(msg)
 	
 	-- If sender is sudo then re-enable the channel
 	if is_sudo(msg) then
-	  if msg.text == "#بات روشن" then
+	  if msg.text == "#bot on" then
 	    enable_channel(receiver, msg.to.id)
 	  end
 	end
@@ -93,16 +93,16 @@ end
 		receiver = get_receiver(msg)
 		reload_plugins(true)
 		post_msg(receiver, "Reloaded!", ok_cb, false)
-		return "همه ی پلاگین ها بارگذاری مجدد شد ! "
+		return "All plugins reloaded!"
 	end
 end
 
 return {
 	patterns = {
-	    "^بات? (روشن)$",
-            "^#بات? (خاموش)$",
-	    "^#بات? (ابدیت)$",
-	    "^#بات (رفرش)$",
+	    "^#bot? (on)$",
+            "^#bot? (off)$",
+	    "^#bot? (up)$",
+	    "^#bot (rl)$",
 	    },
 	run = run,
 	pre_process = pre_process
