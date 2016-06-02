@@ -16,34 +16,34 @@ if msg.text == "Salam" then
   return "علیک👻"
 end
 if msg.text == "salam" then
-  return "علیک سلام👻"
+  return "علیک سلام 😃"
 end
 if msg.text == "dilan" then
   return "jun👻"
 end
 if msg.text == "Dilan" then
-  return "joon👻"
+  return "joon❤️"
 end
 if msg.text == "دیلی" then
-  return "بنال👻"
+  return "بنال 😂"
 end
 if msg.text == "دیلان" then
-  return "بله جان"
+  return "جونم "
 end
 if msg.text == "سلام" then
-  return "سلام با مرام 🙂"
+  return "سلام 😃"
 end
 if msg.text == "slm" then
   return "سلام👻"
 end
 if msg.text == "Slm" then
-  return "سلام👻"
+  return "سلام 😃"
 end
 if msg.text == "سارا" then
   return "سارا خانوم😒"
 end
 if msg.text == "بای" then
-  return "Sick out"
+  return "بای بای "
 end
 if msg.text == "خدافظ" then
   return "Sick�"
@@ -61,7 +61,7 @@ if msg.text == "ببیی" then
   return "کیرررر"
 end
 if msg.text == "@Dilan" then
-  return "بکنته👻"
+  return "😃ها "
 end
 end
 
