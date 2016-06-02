@@ -28,7 +28,7 @@ if msg.text == "دیلی" then
   return "بنال 😂"
 end
 if msg.text == "دیلان" then
-  return "جونم "
+  return "❣جونم "
 end
 if msg.text == "سلام" then
   return "سلام 😃"
@@ -46,7 +46,7 @@ if msg.text == "بای" then
   return "بای بای "
 end
 if msg.text == "خدافظ" then
-  return "Sick�"
+  return "Sick❌"
 end
 if msg.text == "😒" then
   return "😟"
