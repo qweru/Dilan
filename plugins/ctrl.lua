@@ -32,7 +32,7 @@ local function enable_channel(receiver, to_id)
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return 'Self-Bot With the online success ✅
+	return 'Self-Bot With the online success ✅'
 end
 
 local function disable_channel(receiver, to_id)
