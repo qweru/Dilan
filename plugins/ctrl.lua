@@ -26,13 +26,13 @@ local function enable_channel(receiver, to_id)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return 'Self-Bot With the online success ✅
+		return 'Bot was on :D'
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return 'Self-Bot With the online success ✅'
+	return 'Bot was on :D'
 end
 
 local function disable_channel(receiver, to_id)
@@ -43,7 +43,7 @@ local function disable_channel(receiver, to_id)
 	_config.disabled_channels[receiver] = true
 
 	save_config()
-	return 'Self-bot Self-Bot With the offline success ❌'
+	return 'Bot was off ;-/'
 end
 
 local function pre_process(msg)
