@@ -51,6 +51,9 @@ end
 if msg.text == "😒" then
   return "😟"
 end
+if msg.text == "اخایی" then
+  return "جون اقایی بگو دورت بگردم ❤️"
+end
 if msg.text == "bye" then
   return "خدافظ"
 end
@@ -84,6 +87,7 @@ return {
     "^دیلی$",
     "^😒$",
     "^ببیی$",
+    "^اخایی$",
     "^دیلان$",
     }, 
   run = run,
