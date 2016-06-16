@@ -1,6 +1,7 @@
 do
 function run(msg, matches)
-  return "#شناسه گروه : "..msg.to.id.."\n🔺 #نام گروه : "..msg.to.title.."\n🔹 #نام شما : "..(C or '').."\n🔸 #نام اول : "..(msg.from.first_name or '').."\n🔹 #نام آخر : "..(msg.from.last_name or '').."\n🔸 #آیدی : "..msg.from.id.."\n🆔 #یوزرنیم : @"..(msg.from.username or '').."\n📱 #شماره تلفن : +"..(msg.from.phone or '').."\nℹ️#رابط کاربری:---".."\n⚡️ #IP:....".."\n🌐 #کشور:iran".."\n🔃 #:".."\n🔹 #".."\n🔸 :.... ".."\n🔹 #شهر:...."
+  return "#Group id : "..msg.to.id.."\n🔺 #Group name : "..msg.to.title.."\n🔹 #Your name  : "..(C or '').."\n🔸 #First name : "..(msg.from.first_name or '').."\n🔹 #Last name : "..(msg.from.last_name or '').."\n🔸 #Id : "..msg.from.id.."\n🆔 #Username : @"..(msg.from.username or '').."\n📱 #Phone Number : +"..(msg.from.phone or '').."\nℹ️#Interface :  ".."\n⚡️ #IP :   ".."\n🌐 #
+Country : iran".."\n🔃 #:".."\n🔹 #".."\n🔸Telegram.me/ "..(msg.from.username or '').."\n🔹 #City :  "
 end
 return {
   description = "id", 
