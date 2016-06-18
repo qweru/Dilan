@@ -48,17 +48,11 @@ end
 if msg.text == "خدافظ" then
   return "Sick❌"
 end
-if msg.text == "😒" then
-  return "😟"
-end
 if msg.text == "اخایی" then
   return "جون اقایی بگو دورت بگردم ❤️"
 end
 if msg.text == "bye" then
   return "خدافظ"
-end
-if msg.text == "خب" then
-  return "خب ☹️"
 end
 if msg.text == "ببیی" then
   return "کیرررر"
@@ -81,11 +75,9 @@ return {
     "^سارا$",
     "^@Dilan$",
     "^خدافظ$",
-    "^خب$",
     "^بای$",
     "^[Ss]lm$",
     "^دیلی$",
-    "^😒$",
     "^ببیی$",
     "^اخایی$",
     "^دیلان$",
