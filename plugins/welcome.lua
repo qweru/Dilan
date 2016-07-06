@@ -1,5 +1,5 @@
 local add_user_cfg = load_from_file('data/add_user_cfg.lua')
-
+--create by RoyalTeam ID CHANNEL : @RoyalTeamCh
 local function template_add_user(base, to_username, from_username, chat_name, chat_id)
    base = base or ''
    to_username = '@' .. (to_username or '')
@@ -58,8 +58,8 @@ local function description_rules(msg, nama)
          rules = data[tostring(msg.to.id)]["rules"]
          rules = "\nRules :\n"..rules.."\n"
       end
-      local sambutan = "Hi "..nama.."\nWelcome to '"..string.gsub(msg.to.print_name, "_", " ").."'\nYou can use /help for see bot commands\n"
-      local text = sambutan..about..rules.."\n"
+      local sambutan = "Hi "..nama.." Welcome to  "..string.gsub(msg.to.print_name, "_", " ")..""
+      local text = sambutan.."\n"
       local receiver = get_receiver(msg)
       send_large_msg(receiver, text, ok_cb, false)
    end
@@ -87,11 +87,11 @@ local function run(msg, matches)
       chat_new_user_link(msg)
       description_rules(msg, nama)
    elseif matches[1] == "chat_del_user" then
-       local SickOut_name = msg.action.user.first_name
-       return 'SickOut '..SickOut_name
+       local bye_name = msg.action.user.first_name
+       return 'Bye  '..bye_name
    end
 end
-
+--create by makan
 return {
    description = "Welcoming Message",
    usage = "send message to new member",
